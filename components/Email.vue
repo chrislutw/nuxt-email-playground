@@ -163,7 +163,7 @@ const containerImageFooter = {
         <Text
           :style="{
             textAlign: 'center',
-            fontSize: 12,
+            fontSize: '32px',
             color: 'rgb(0,0,0, 0.7)',
           }"
         >

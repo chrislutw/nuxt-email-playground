@@ -3,6 +3,7 @@ import vue from '@vitejs/plugin-vue'
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/i18n'],
+
   i18n: {
     langDir: 'locales',
     locales: [{ name: 'English', code: 'en-US', file: 'en.json' }],
@@ -18,9 +19,12 @@ export default defineNuxtConfig({
       localeDetector: './localeDetector.ts'
     }
   },
+
   nitro: {
     rollupConfig: {
       plugins: [vue()]
     },
   },
+
+  compatibilityDate: '2024-07-03',
 })

@@ -1,7 +1,7 @@
 <template>
   <div>
     <ClientOnly>
-      <Email 
+      <TailwindTest 
     invitedByEmail="anpch@example.com"
     inviteLink="https://vercel.com/teams/invite/foo"
     invitedByUsername="bukinoshita"
